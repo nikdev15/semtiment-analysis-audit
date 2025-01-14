@@ -6,5 +6,9 @@ scikit-learn
 Flask
 dill
 tensorflow
+requests
+datetime
+datasets
+transformers
 
 -e .
