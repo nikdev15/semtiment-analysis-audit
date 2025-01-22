@@ -63,21 +63,6 @@ The objective of this project is to predict the sentiment of audit documents usi
 
 ---
 
-### **4. Prediction Pipeline**
-- This pipeline processes new data for prediction by:
-  - Tokenizing and transforming inputs.  
-  - Loading the necessary pickle files for the trained model and tokenizer.  
-  - Predicting the sentiment based on the input data.
-
----
-
-### **5. Flask Application**
-- A Flask-based web application is created to provide a user-friendly interface for sentiment prediction.  
-- Users can input audit document text through the web application, and the model predicts the sentiment.
-
----
-
-## **GCP Deployment Link**
-The model is deployed on Google Cloud Platform (GCP) and can be accessed at:  
-**[Add the deployment link here]**
-
+## Performance
+### Classification report of the model
+![Classification Report](classification-report.png)
