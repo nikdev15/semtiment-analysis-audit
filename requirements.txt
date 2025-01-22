@@ -10,5 +10,7 @@ requests
 datetime
 datasets
 transformers
+torch
+tf-keras
 
--e .
+#-e .
